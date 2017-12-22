@@ -4,12 +4,14 @@ import {FormsModule} from '@angular/forms'
 
 import { AppComponent } from './app.component';
 import { SignupComponent } from './signup/signup.component';
+import { FormdemobasicsComponent } from './formdemobasics/formdemobasics.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    SignupComponent
+    SignupComponent,
+    FormdemobasicsComponent
   ],
   imports: [
     BrowserModule,
